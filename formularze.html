@@ -1,0 +1,622 @@
+﻿<!DOCTYPE HTML>
+<html>
+<head>
+<title>Projekt na tssi</title>
+<meta charset="UTF-8"/>
+<meta name="author" content="Kurek Rafal"/>
+<meta name="description" content="opis strony"/>
+<meta name="keywords" content="slowa, klucze"/>
+<style>
+#poj
+{
+height:3600px;
+border-radius:25px;
+width:960px;
+margin:0 auto;
+background-color:rgb(137,143,155);
+}
+header
+{
+width:960px;
+height:325px;
+position:relative;
+
+}
+h1
+{
+color:rgb(191,199,220);
+width:580px;
+
+background-color:rgb(6,49,141);
+position:absolute;
+right:60px;
+top:60px;
+font-size:80px;
+font-variant:small-caps;
+font-style:italic;
+letter-spacing:3px;
+text-align:center;
+text-shadow:5px 6px black;
+border-radius:25px;
+}
+figure
+{
+position:absolute;
+left:50px;
+top:50px;
+box-shadow:8px 8px 5px black;
+background-color:rgb(124,124,124);
+
+}
+#nag
+{
+font-weight:bold;
+position:relative;
+background-color:rgb(254, 80, 7);
+height:35px;
+font-size:25px;
+border-radius:10px;
+width:940px;
+margin:0 auto;
+text-align:center;
+top:18px;
+}
+body
+{
+
+background-image: url(grafika/tlo.jpg);
+}
+#menu
+{
+
+background-color:rgb(254, 80, 7);
+width:940px;
+border-radius:10px;
+height:50px;
+margin: 0 auto;
+}
+footer
+{
+position:relative;
+bottom:-75px;
+text-align:center;
+clear:both;
+background-color:rgb(254, 80, 7);
+width:940px;
+border-radius:10px;
+height:35px;
+margin: 0 auto;
+font-weight:bold;
+font-size:25px;
+}
+#tresc
+{
+z-index:1;
+position:relative;
+top:30px;
+width:920px;
+background-color:rgb(124,124,124);
+border-radius:10px;
+margin: 0 auto;
+text-align:left;
+height:3050px;
+border:solid black 2px;
+box-shadow:8px 8px 5px black;
+font-family:Verdana;
+font-size:18px;
+}
+#tresc p
+{
+position:absolute;
+top:80px;
+
+}
+#kot
+{
+position:fixed;
+top:600px;
+left:5%;
+border:solid black 1px;
+width:68px;
+background-color:rgb(6,49,141);
+box-shadow:8px 8px 5px black;
+border-radius:25px;
+}
+#dol
+{
+position:fixed;
+top:600px;
+right:5%;
+border:solid black 1px;
+width:68px;
+background-color:rgb(6,49,141);
+box-shadow:8px 8px 5px black;
+border-radius:25px;
+}
+#dol img
+{
+padding-top:8px;
+
+}
+
+nav ul
+{
+position:relative;
+top:8px;
+left:62px;
+list-style-type:none;
+margin:0;
+padding:0;
+}
+nav ul ul 
+{
+z-index:2;
+display:none;
+position:absolute;
+top:100%;
+}
+nav ul ul a
+{
+font-size:20px;
+display:block;
+}
+nav ul ul a:hover
+{
+font-weight:bold;
+}
+nav ul li:hover > ul
+{
+
+display:block;
+}
+nav li
+{
+display:inline;
+}
+nav a
+{
+color:white;
+font-size:28px;
+text-align:center;
+display:inline-block;
+width:200px;
+border:black solid 1px;
+border-radius:25px;
+background-color:rgb(6,49,141);
+text-decoration:none;
+}
+.one
+{
+left:0;
+}
+.two
+{
+
+left:208px;
+}
+.three
+{
+left:415px;
+}
+.four
+{
+left:622px;
+}
+#tresc ol
+{
+
+list-style-type:none;
+}
+#tresc ol li
+{
+padding-top:20px;
+}
+#tresc ol li ul li
+{
+padding-top:0;
+}
+#tresc ul
+{
+list-style-type:square;
+}
+.i
+{
+background-color:rgb(6,49,141);
+border-radius:25px;
+box-shadow:8px 8px 5px black;
+color:white;
+width:800px;
+padding:4px;
+text-align:center;
+}
+#j
+{
+position:absolute;
+top:450px;
+left:60px;
+}
+#d
+{
+position:absolute;
+top:550px;
+left:60px;
+}
+#t 
+{
+position:absolute;
+top:680px;
+left:60px;
+}
+#c
+{
+position:absolute;
+top:830px;
+left:60px;
+}
+#szesc
+{
+position:absolute;
+top:1120px;
+left:60px;
+}
+#siedem
+{
+position:absolute;
+top:1200px;
+left:60px;
+}
+#osiem
+{
+position:absolute;
+top:1300px;
+left:60px;
+}
+#dziewiec
+{
+position:absolute;
+top:1425px;
+left:60px;
+}
+#dziesiec
+{
+position:absolute;
+top:1510px;
+left:60px;
+}
+#jedenascie
+{
+position:absolute;
+top:1590px;
+left:60px;
+}
+#dwanascie
+{
+position:absolute;
+top:1690px;
+left:60px;
+}
+#trzynascie
+{
+position:absolute;
+top:1780px;
+left:60px;
+}
+#czternascie
+{
+position:absolute;
+top:1935px;
+left:60px;
+}
+#pietnascie
+{
+position:absolute;
+top:2050px;
+left:60px;
+}
+#szesnascie
+{
+position:absolute;
+top:2160px;
+left:60px;
+}
+#siedemnascie
+{
+position:absolute;
+top:2290px;
+left:60px;
+}
+#osiemnascie
+{
+position:absolute;
+top:2450px;
+left:60px;
+}
+#dziewietnascie
+{
+position:absolute;
+top:2740px;
+left:60px;
+}
+#dwadziescia
+{
+position:absolute;
+top:2870px;
+left:60px;
+}
+</style>
+</head>
+<body>
+<div id="poj">
+<div id="nag">
+<p>Zesp&#243;&#322; Szk&#243;&#322; &#321;&#261;czno&#347;ci w Krakowie im. &quot;Obro&#324;c&#243;w Poczty Polskiej w Gda&#324;sku&quot;</p>
+</div>
+<header>
+<h1>Formularze</h1>
+<figure>
+<a href="index.html"><img src="grafika/logo1.png" alt="obraz"  height="200"/></a>
+</figure>
+</header>
+<div id="menu">
+<nav>
+<ul>
+<li><a href="*">Pozycjonowanie</a>
+<ul class="one">
+<li><a href="statyczne.html">Pozycjonowanie statyczne</a></li>
+<li><a href="względne.html">Pozycjonowanie względne</a></li>
+<li><a href="bezwzgledne.html">Pozycjonowanie bezwzględne</a></li>
+<li><a href="trwałe.html">Pozycjonowanie trwałe</a></li>
+<li><a href="kontekstowe.html">Pozycjonowanie kontekstowe</a></li>
+</ul>
+</li>
+<li><a href="*">Układy</a>
+<ul class="two">
+<li><a href="hybryda.html">Układ hybrydowy</a></li>
+<li><a href="plynne.html">Układ płynny</a></li>
+</ul>
+</li>
+<li><a href="*">HTML</a>
+<ul class="three">
+<li><a href="mapa_odsylaczy.html">Mapa odsyłaczy</a></li>
+<li><a href="galeria.html">Galeria zdjęć</a></li>
+<li><a href="opacity.html">Znikający opis zdjęcia</a></li>
+<li><a href="formularze.html">Formularze</a></li>
+<li><a href="formularze2.html">Formularze uzupełnienie</a></li>
+<li><a href="rozwijalne.html">Menu rozwijalne</a></li>
+<li><a href="sekcje_w_html.html">Nowe znaczniki</a></li>
+</ul>
+</li>
+
+<li><a href="*">CSS</a>
+<ul class="four">
+<li><a href="dziedziczenie.html">Dziedziczenie</a></li>
+<li><a href="gradienty.html">Gradienty</a></li>
+<li><a href="css.html">Nowe właściwości</a></li>
+</ul>
+</li>
+</ul>
+</nav>
+</div>
+<div id="tresc">
+<ol>
+<li><b>Formularz</b> jest to część strony, która łączy trzy języki:
+<ul>
+<li>język znaczników</li>
+<li>język przetwarzania po stronie serwera</li>
+<li>język przetwarzania po stronie klienta</li>
+</ul>
+</li>
+<li><b>Ramy formularza</b> wyznacza znacznik kontenerowy &lt;form&gt;, jego atrybuty:
+<ul>
+<li>method, może przjmować wartość "post" lub "get", decyduje on o sposobie przesyłania formularza</li>
+<li>autocomplete, przyjumuje wartośc "on" lub "off", przeglądarka zapamiętuje np. wprowadzony login</li>
+<li>novalidate wyłącza domyślne sprawdzanie zawartości</li>
+<li>enctype, wymaga ustawienia atrybutu method na wartość "post", nas interesuje tylko jedna właściwośc tego atrybutu, która pozwoli nam wrzucać pliki do formularza, jest to wartość "multipart/form-data"</li>
+</ul>
+</li>
+</ol>
+<div class="i" id="j">
+<form method="post">
+<label>Opis formularza<input type="text"/></label>
+</form>
+<span>Znacznik <b>&lt;label&gt;</b> pozwala nam opisać słownie pola formularza, jest to znacznik kontenerowy. &lt;label&gt;Opis formularza&lt;input/&gt;&lt;/label&gt;</span>
+</div>
+<div class="i" id="d">
+<form method="post">
+<textarea></textarea>
+</form>
+<span>Znacznik <b>&lt;textarea&gt;</b> jest znacznikiem kontenerowym i pozwala nam wprowadzić pole tekstowe do formularza.</span>
+</div>
+<div class="i" id="t">
+<fieldset>
+<legend>Legenda formularza</legend>
+<form method="post">
+<label>Opis formularza<input type="text"/></label>
+</form>
+</fieldset>
+<span>Znacznik &lt;fieldset&gt; oraz &lt;legend&gt; pozwalają otoczyć ramką formularz oraz opiatrzyć ją nagłówkiem. </span>
+</div>
+
+
+<div class="i" id="c">
+
+<form method="post">
+<select>
+<optgroup label="Ford">
+<option>Mustang</option>
+<option>Focus</option>
+</optgroup>
+<optgroup label="Hyundai">
+<option>i30cw</option>
+</optgroup>
+</select>
+</form>
+
+<span>Znacznik &lt;option&gt;,  &lt;select&gt; oraz &lt;optgroup&gt; pozwalają stworzyć listę. Znacznik  &lt;select&gt; posiada atrybut "multiple", który pozwala za pomocą przytrzymanego ctrl zaznaczyć parę opcji. Znacznik  &lt;optgroup&gt; posiada atrybut "label", którego wartość jest nazwą grupy w liście. Znacznik &lt;option&gt; posiada atrybut "selected", który wyświetli daną opcję domyślnie od razu w liście.
+<br>
+ &lt;select&gt;
+ <br>
+  &lt;optgroup label="Ford"&gt;
+  <br>
+  &lt;option&gt; Focus&lt;/option&gt;
+  <br>
+ &lt;/optgroup&gt;
+ <br>
+ &lt;/select&gt;
+</span>
+</div>
+
+
+<div class="i" id="szesc">
+<form method="post">
+<label>Input typu text<input type="text"/></label>
+</form>
+<span>&lt;input&gt; o wartości atrybutu type="text" to pole, w które możemy wprowadzić tekst.</span>
+</div>
+
+<div class="i" id="siedem">
+<form method="post">
+<label>Hasło<input type="password"/></label>
+</form>
+<span>&lt;input&gt; o wartości atrybutu type="password" to pole, w które możemy wprowadzić hasło.</span>
+</div>
+
+
+<div class="i" id="osiem">
+<form method="post">
+<label>Wpisz tekst<input type="text"/></label>
+<input type="submit" value="Wyślij"/>
+</form>
+<span>&lt;input&gt; o wartości atrybutu type="submit" to pole przycisk, którym możemy zatwierdzić i wysłać nasz formularz. Atrybut "value" pozwala nam wstawić w przycisk tekst, np. value="wyślij".</span>
+</div>
+
+<div class="i" id="dziewiec">
+<form method="post">
+<label>Wpisz numer telefonu<input type="tel"/></label>
+</form>
+<span>&lt;input&gt; o wartości atrybutu type="tel" to pole, w którym wpisujemy numer telefonu.</span>
+</div>
+
+<div class="i" id="dziesiec">
+<form method="post">
+<label>Wpisz adres email<input type="email"/></label>
+
+</form>
+<span>&lt;input&gt; o wartości atrybutu type="email" to pole, w którym wpisujemy adres email.</span>
+</div>
+
+<div class="i" id="jedenascie">
+<form method="post">
+<label>Wpisz adres strony<input type="url"/></label>
+
+</form>
+<span>&lt;input&gt; o wartości atrybutu type="url" to pole, w którym wpisujemy adres strony internetowej.</span>
+</div>
+
+<div class="i" id="dwanascie">
+<form method="post">
+<label>Wpisz datę urodzenia<input type="date"/></label>
+
+</form>
+<span>&lt;input&gt; o wartości atrybutu type="date" to pole, w którym wpisujemy datę.</span>
+</div>
+
+
+<div class="i" id="trzynascie">
+<form method="post">
+<label>Podaj wiek<input type="number" min="1" max="99" step="2"/></label>
+
+</form>
+<span>&lt;input&gt; o wartości atrybutu type="number" to pole, w którym wybieramy liczby. Atrybut "min" i "max" pozwalają określić zakres możliwych liczb do podania, a atrybut "step" określa co jaką wartość będzie zmieniana liczba przy ręcznym przesuwaniu za pomocą graficznych strzałek. Tutaj "step" określony jest wartością 2.</span>
+</div>
+
+
+<div class="i" id="czternascie">
+<form method="post">
+<label>Podaj wartość<input type="range"/></label>
+
+</form>
+<span>&lt;input&gt; o wartości atrybutu type="range" utworzy nam suwak. Dostępne atrybuty "min", "max" oraz "step" o takim samym działaniu.</span>
+</div>
+
+<div class="i" id="pietnascie">
+<form method="post">
+<label>Podaj kolor<input type="color"/></label>
+
+</form>
+<span>&lt;input&gt; o wartości atrybutu type="color" pozwoli nam wybrać kolor z dostępnej palety.</span>
+</div>
+
+<div class="i" id="szesnascie">
+<form method="post">
+<label>Wpisz coś<input type="text"/></label>
+<input type="reset" value="Wyczyść"/>
+</form>
+<span>&lt;input&gt; o wartości atrybutu type="reset" to przycisk, który wyczyści nam wszystkie pola formularza, atrybut "value" działa jak w przypadku inputa typu "submit". Tutaj value="Wyczyść".</span>
+</div>
+
+
+<div class="i" id="siedemnascie">
+<form method="post" enctype="multipart/form-data">
+<label>Wyślij plik<input type="file" accept="image/png"/></label>
+
+</form>
+<span>&lt;input&gt; o wartości atrybutu type="file" pozwala nam wrzucić plik w formularz. Niezbędne atrybuty znacznika &lt;form&gt; to method="post" i enctype="multipart/form-data". Atrybuty samego inputa to atrybut "accept", w którym podajemy rodzaj pliku i rozszerzenie, np. accept="imagine/png".</span>
+</div>
+
+<div class="i" id="osiemnascie">
+<form method="post">
+<label>Wybierz zwierzaka(np. słoń)<input type="text" list="zwierz"/></label>
+<datalist id="zwierz">
+<option label="słoń" value="słoń">
+<option label="wąż" value="wąż">
+</datalist>
+</form>
+<span>&lt;datalist&gt; tworzy listę podpowiedzi. W input musimy ustawić atrybut "list" i przypisaną do niego wartość podać w atrybucie znacznika &lt;datalist&gt; "id". W &lt;option&gt; występują atrybuty "value", która wyświetla jego wartość w podpowiedziach i "label", który teraz nie ma dla nas dużego znaczenia bo wiąże się on z językiem javascript. Składnia:
+<br>
+&lt;label&gt;Wybierz zwierzaka&lt;input type=&quot;text&quot; list=&quot;zwierz&quot;/&gt;&lt;/label&gt;
+<br>
+&lt;datalist id=&quot;zwierz&quot;&gt;
+<br>
+&lt;option label=&quot;s&#322;o&#324;&quot; value=&quot;s&#322;onik&quot;&gt;
+<br>
+&lt;option label=&quot;w&#261;&#380;&quot; value=&quot;w&#281;&#380;yk&quot;&gt;
+<br>
+&lt;/datalist&gt;
+
+</span>
+</div>
+
+
+<div class="i" id="dziewietnascie">
+<form method="post">
+<label>Kobieta<input type="checkbox" checked/></label>
+<label>Mężczyzna<input type="checkbox"/></label>
+
+</form>
+<span>&lt;input&gt; o wartości atrybutu type="chceckbox" tworzy listę pól wielokrotnego wyboru, tzn. można zaznaczyć więcej niż jedną propozycję. Atrybut "checked" zaznacza domyślnie wybraną propozycję, a "disabled" blokuje daną propozycję.</span>
+</div>
+
+<div class="i" id="dwadziescia">
+<form method="post" >
+<label>Kraków<input type="radio" name="ble"/></label>
+<label>Warszawa<input type="radio" name="ble"/></label>
+<label>Gdańsk<input type="radio" name="ble"/></label>
+</form>
+<span>&lt;input&gt; o wartości atrybutu type="radio" tworzy listę, z której można wybrać tylko jedną propozycję. Ważne jest to, aby ustawić atrybut "name" o tej samej wartości dla wszystkich propozycji z listy.</span>
+</div>
+
+
+
+</div>
+<div id="kot">
+<a href="#poj"><img src="grafika/strzalka.png" alt ="obrazek"/></a>
+</div>
+<div id="dol">
+<a href="#fot"><img src="grafika/strzalka1.png" alt ="obrazek1"/></a>
+</div>
+<footer id="fot">
+Wykonał Rafał Kurek z klasy 2id
+</footer>
+</div>
+</body>
+</html>

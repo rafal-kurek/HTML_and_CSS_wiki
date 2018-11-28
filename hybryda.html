@@ -1,0 +1,342 @@
+﻿<!DOCTYPE HTML>
+<html>
+<head>
+<title>Projekt na tssi</title>
+<meta charset="UTF-8"/>
+<meta name="author" content="Kurek Rafal"/>
+<meta name="description" content="opis strony"/>
+<meta name="keywords" content="slowa, klucze"/>
+<style>
+#poj
+{
+height:1550px;
+border-radius:25px;
+width:960px;
+margin:0 auto;
+background-color:rgb(137,143,155);
+}
+header
+{
+width:960px;
+height:325px;
+position:relative;
+
+}
+h1
+{
+color:rgb(191,199,220);
+width:580px;
+
+background-color:rgb(6,49,141);
+position:absolute;
+right:60px;
+top:25px;
+font-size:80px;
+font-variant:small-caps;
+font-style:italic;
+letter-spacing:3px;
+text-align:center;
+text-shadow:5px 6px black;
+border-radius:25px;
+}
+header figure
+{
+position:absolute;
+left:50px;
+top:50px;
+box-shadow:8px 8px 5px black;
+background-color:rgb(124,124,124);
+
+}
+#nag
+{
+font-weight:bold;
+position:relative;
+background-color:rgb(254, 80, 7);
+height:35px;
+font-size:25px;
+border-radius:10px;
+width:940px;
+margin:0 auto;
+text-align:center;
+top:18px;
+}
+body
+{
+
+background-image: url(grafika/tlo.jpg);
+}
+#menu
+{
+
+background-color:rgb(254, 80, 7);
+width:940px;
+border-radius:10px;
+height:50px;
+margin: 0 auto;
+}
+footer
+{
+position:relative;
+bottom:-75px;
+text-align:center;
+clear:both;
+background-color:rgb(254, 80, 7);
+width:940px;
+border-radius:10px;
+height:35px;
+margin: 0 auto;
+font-weight:bold;
+font-size:25px;
+}
+#tresc
+{
+z-index:1;
+position:relative;
+top:30px;
+width:920px;
+background-color:rgb(124,124,124);
+border-radius:10px;
+margin: 0 auto;
+text-align:center;
+height:1000px;
+border:solid black 2px;
+box-shadow:8px 8px 5px black;
+font-family:Verdana;
+font-size:18px;
+}
+#tresc p
+{
+position:absolute;
+top:80px;
+
+}
+#kot
+{
+position:fixed;
+top:600px;
+left:5%;
+border:solid black 1px;
+width:68px;
+background-color:rgb(6,49,141);
+box-shadow:8px 8px 5px black;
+border-radius:25px;
+}
+#dol
+{
+position:fixed;
+top:600px;
+right:5%;
+border:solid black 1px;
+width:68px;
+background-color:rgb(6,49,141);
+box-shadow:8px 8px 5px black;
+border-radius:25px;
+}
+#dol img
+{
+padding-top:8px;
+
+}
+
+nav ul
+{
+position:relative;
+top:8px;
+left:62px;
+list-style-type:none;
+margin:0;
+padding:0;
+}
+nav ul ul 
+{
+z-index:2;
+display:none;
+position:absolute;
+top:100%;
+}
+nav ul ul a
+{
+font-size:20px;
+display:block;
+}
+nav ul ul a:hover
+{
+font-weight:bold;
+}
+nav ul li:hover > ul
+{
+
+display:block;
+}
+nav li
+{
+display:inline;
+}
+nav a
+{
+color:white;
+font-size:28px;
+text-align:center;
+display:inline-block;
+width:200px;
+border:black solid 1px;
+border-radius:25px;
+background-color:rgb(6,49,141);
+text-decoration:none;
+}
+.one
+{
+left:0;
+}
+.two
+{
+
+left:208px;
+}
+.three
+{
+left:415px;
+}
+.four
+{
+left:622px;
+}
+#tresc a
+{
+color:white;
+font-size:28px;
+text-align:center;
+display:inline-block;
+width:300px;
+border:black solid 1px;
+border-radius:25px;
+background-color:rgb(6,49,141);
+text-decoration:none;
+position:absolute;
+top:130px;
+left:315px;
+box-shadow:8px 8px 5px black;
+}
+#tresc a:hover
+{
+font-weight:bold;
+}
+#ok
+{
+position:absolute;
+top:30px;
+left:10px;
+}
+#kk
+{
+position:absolute;
+top:250px;
+left:170px;
+}
+#tresc figcaption
+{
+background-color:rgb(6,49,141);
+border-radius:25px;
+box-shadow:8px 8px 5px black;
+color:white;
+width:750px;
+padding:15px;
+position:relative;
+top:10px;
+left:-10px;
+}
+#tresc figure
+{
+position:absolute;
+top:300px;
+left:40px;
+}
+#tresc a
+{
+position:absolute;
+top:180px;
+}
+#tresc ol
+{
+position:absolute;
+top:80px;
+left:20px;
+}
+</style>
+</head>
+<body>
+<div id="poj">
+<div id="nag">
+<p>Zesp&#243;&#322; Szk&#243;&#322; &#321;&#261;czno&#347;ci w Krakowie im. &quot;Obro&#324;c&#243;w Poczty Polskiej w Gda&#324;sku&quot;</p>
+</div>
+<header>
+<h1>Układy hybrydowe</h1>
+<figure>
+<a href="index.html"><img src="grafika/logo1.png" alt="obraz"  height="200"/></a>
+</figure>
+</header>
+<div id="menu">
+<nav>
+<ul>
+<li><a href="*">Pozycjonowanie</a>
+<ul class="one">
+<li><a href="statyczne.html">Pozycjonowanie statyczne</a></li>
+<li><a href="względne.html">Pozycjonowanie względne</a></li>
+<li><a href="bezwzgledne.html">Pozycjonowanie bezwzględne</a></li>
+<li><a href="trwałe.html">Pozycjonowanie trwałe</a></li>
+<li><a href="kontekstowe.html">Pozycjonowanie kontekstowe</a></li>
+</ul>
+</li>
+<li><a href="*">Układy</a>
+<ul class="two">
+<li><a href="hybryda.html">Układ hybrydowy</a></li>
+<li><a href="plynne.html">Układ płynny</a></li>
+</ul>
+</li>
+<li><a href="*">HTML</a>
+<ul class="three">
+<li><a href="mapa_odsylaczy.html">Mapa odsyłaczy</a></li>
+<li><a href="galeria.html">Galeria zdjęć</a></li>
+<li><a href="opacity.html">Znikający opis zdjęcia</a></li>
+<li><a href="formularze.html">Formularze</a></li>
+<li><a href="formularze2.html">Formularze uzupełnienie</a></li>
+<li><a href="rozwijalne.html">Menu rozwijalne</a></li>
+<li><a href="sekcje_w_html.html">Nowe znaczniki</a></li>
+</ul>
+</li>
+
+<li><a href="*">CSS</a>
+<ul class="four">
+<li><a href="dziedziczenie.html">Dziedziczenie</a></li>
+<li><a href="gradienty.html">Gradienty</a></li>
+<li><a href="css.html">Nowe właściwości</a></li>
+</ul>
+</li>
+</ul>
+</nav>
+</div>
+<div id="tresc">
+<span id="ok">Układy hybrydowe łączą w sobie układ płynny i układ stały. Aby stworzyć taki układ należy spełnić dwa warunki:</span>
+<ol>
+<li>Na kolumnie stałej ustawiamy stałą szerokość i opływanie z prawej lub lewej.</li>
+<li>Na kolumnie płynnej ustawiamy margines szerokości kolumny stałej właściwością <b>margin</b>. </li>
+</ol>
+<a href="przyklad5.html">Odsyłacz do przykładu</a>
+<figure>
+<img src="grafika/kod20.jpg" alt="obraz1" width="700" height="500"/>
+<figcaption>Oto kod z przykładu z odsyłacza. Wszystko już wytłumaczyłem w opisanych wcześniej warunkach. Mogę tylko dodać, że ustawienie koloru tła dla całrgo pojemnika i poszczególnych kolumn ułatwi nam testowanie takich układów.</figcaption>
+</figure>
+</div>
+<div id="kot">
+<a href="#poj"><img src="grafika/strzalka.png" alt ="obrazek"/></a>
+</div>
+<div id="dol">
+<a href="#fot"><img src="grafika/strzalka1.png" alt ="obrazek1"/></a>
+</div>
+<footer id="fot">
+Wykonał Rafał Kurek z klasy 2id
+</footer>
+</div>
+</body>
+</html>

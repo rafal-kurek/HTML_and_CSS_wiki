@@ -1,0 +1,447 @@
+﻿<!DOCTYPE HTML>
+<html>
+<head>
+<title>Projekt na tssi</title>
+<meta charset="UTF-8"/>
+<meta name="author" content="Kurek Rafal"/>
+<meta name="description" content="opis strony"/>
+<meta name="keywords" content="slowa, klucze"/>
+<style>
+#poj
+{
+height:3310px;
+border-radius:25px;
+width:960px;
+margin:0 auto;
+background-color:rgb(137,143,155);
+}
+header
+{
+width:960px;
+height:325px;
+position:relative;
+
+}
+h1
+{
+color:rgb(191,199,220);
+width:580px;
+
+background-color:rgb(6,49,141);
+position:absolute;
+right:60px;
+top:70px;
+font-size:80px;
+font-variant:small-caps;
+font-style:italic;
+letter-spacing:3px;
+text-align:center;
+text-shadow:5px 6px black;
+border-radius:25px;
+}
+figure
+{
+position:absolute;
+left:50px;
+top:50px;
+box-shadow:8px 8px 5px black;
+background-color:rgb(124,124,124);
+
+}
+#nag
+{
+font-weight:bold;
+position:relative;
+background-color:rgb(254, 80, 7);
+height:35px;
+font-size:25px;
+border-radius:10px;
+width:940px;
+margin:0 auto;
+text-align:center;
+top:18px;
+}
+body
+{
+
+background-image: url(grafika/tlo.jpg);
+}
+#menu
+{
+
+background-color:rgb(254, 80, 7);
+width:940px;
+border-radius:10px;
+height:50px;
+margin: 0 auto;
+}
+footer
+{
+position:relative;
+bottom:-85px;
+text-align:center;
+clear:both;
+background-color:rgb(254, 80, 7);
+width:940px;
+border-radius:10px;
+height:35px;
+margin: 0 auto;
+font-weight:bold;
+font-size:25px;
+}
+#tresc
+{
+z-index:1;
+position:relative;
+top:30px;
+width:920px;
+background-color:rgb(124,124,124);
+border-radius:10px;
+margin: 0 auto;
+text-align:center;
+height:2750px;
+border:solid black 2px;
+box-shadow:8px 8px 5px black;
+font-family:Verdana;
+font-size:18px;
+}
+#tresc p
+{
+position:absolute;
+top:80px;
+
+}
+#kot
+{
+position:fixed;
+top:600px;
+left:5%;
+border:solid black 1px;
+width:68px;
+background-color:rgb(6,49,141);
+box-shadow:8px 8px 5px black;
+border-radius:25px;
+}
+#dol
+{
+position:fixed;
+top:600px;
+right:5%;
+border:solid black 1px;
+width:68px;
+background-color:rgb(6,49,141);
+box-shadow:8px 8px 5px black;
+border-radius:25px;
+}
+#dol img
+{
+padding-top:8px;
+
+}
+
+nav ul
+{
+position:relative;
+top:8px;
+left:62px;
+list-style-type:none;
+margin:0;
+padding:0;
+}
+nav ul ul 
+{
+z-index:2;
+display:none;
+position:absolute;
+top:100%;
+}
+nav ul ul a
+{
+font-size:20px;
+display:block;
+}
+nav ul ul a:hover
+{
+font-weight:bold;
+}
+nav ul li:hover > ul
+{
+
+display:block;
+}
+nav li
+{
+display:inline;
+}
+nav a
+{
+color:white;
+font-size:28px;
+text-align:center;
+display:inline-block;
+width:200px;
+border:black solid 1px;
+border-radius:25px;
+background-color:rgb(6,49,141);
+text-decoration:none;
+}
+.one
+{
+left:0;
+}
+.two
+{
+
+left:208px;
+}
+.three
+{
+left:415px;
+}
+.four
+{
+left:622px;
+}
+#tresc span
+{
+padding- top:10px;
+}
+#ramka
+{
+padding:3px;
+background-color:green;
+border:solid black 1px;
+width:450px;
+box-shadow:8px 8px 5px black;
+margin:0 auto;
+height:130px;
+background-color:rgb(6,49,141);
+color:white;
+text-align:center;
+border-radius:25px;
+}
+.s
+{
+font-weight:bold;
+font-style:italic;
+font-size:25px;
+}
+#g1
+{
+width:600px;
+height:200px;
+background:-webkit-linear-gradient(left,skyblue,green);
+background:-moz-linear-gradient(left,skyblue,green);
+background:-o-linear-gradient(left,skyblue,green);
+background:-ms-linear-gradient(left,skyblue,green);
+}
+#g2
+{
+width:600px;
+height:200px;
+background:-webkit-linear-gradient(45deg,blue,purple);
+background:-moz-linear-gradient(45deg,blue,purple);
+background:-o-linear-gradient(45deg,blue,purple);
+background:-ms-linear-gradient(45deg,blue,purple);
+}
+#g3
+{
+width:600px;
+height:200px;
+background:-webkit-linear-gradient(45deg,yellow, red 90%, green);
+background:-moz-linear-gradient(45deg,yellow, red 90%, green);
+background:-o-linear-gradient(45deg,yellow, red 90%, green);
+background:-ms-linear-gradient(45deg,yellow, red 90%, green);
+}
+#g4
+{
+width:600px;
+height:200px;
+background: -webkit-linear-gradient(left,rgba(255,0,0,0.1),rgba(255,0,0,1)); 
+  background: -o-linear-gradient(right,rgba(255,0,0,0.1),rgba(255,0,0,1)); 
+  background: -moz-linear-gradient(right,rgba(255,0,0,0.1),rgba(255,0,0,1)); 
+  background: -ms-linear-gradient(to right, rgba(255,0,0,0.1), rgba(255,0,0,1)); 
+}
+#g5
+{
+width:600px;
+height:200px;
+background: -webkit-repeating-linear-gradient(top, black 0px, black 10px, white 10px, white 20px);
+ background: -o-repeating-linear-gradient(top, black 0px, black 10px, white 10px, white 20px);
+ background: -moz-repeating-linear-gradient(top, black 0px, black 10px, white 10px, white 20px);
+ background: -ms-repeating-linear-gradient(top, black 0px, black 10px, white 10px, white 20px);
+}
+#g6
+{
+width:600px;
+height:200px;
+background: -webkit-radial-gradient(blue 20%, gold 50%);
+ background: -o-radial-gradient(blue 20%, gold 50%);
+ background: -moz-radial-gradient(blue 20%, gold 50%);
+ background: -ms-radial-gradient(blue 20%, gold 50%);
+}
+#g7
+{
+width:600px;
+height:200px;
+background: -webkit-radial-gradient(circle, red 0%, red 30%, white 30%, white 100%);
+ background: -o-radial-gradient(circle, red 0%, red 30%, white 30%, white 100%);
+ background: -moz-radial-gradient(circle, red 0%, red 30%, white 30%, white 100%);
+ background: -ms-radial-gradient(circle, red 0%, red 30%, white 30%, white 100%);
+}
+.for
+{
+text-align:center;
+font-size:15px;
+font-style:italic;
+padding-top:80px;
+}
+h2, h3, h4
+{
+font-size:22px;
+}
+#g1, #g2, #g3, #g4,#g5, #g6, #g7
+{
+margin: 0 auto;
+margin-top:60px;
+}
+#cok
+{
+position:absolute;
+top:1800px;
+left:0;
+}
+
+#uni
+{
+text-align:center;
+font-size:15px;
+font-style:italic;
+padding-top:50px;
+}
+</style>
+</head>
+<body>
+<div id="poj">
+<div id="nag">
+<p>Zesp&#243;&#322; Szk&#243;&#322; &#321;&#261;czno&#347;ci w Krakowie im. &quot;Obro&#324;c&#243;w Poczty Polskiej w Gda&#324;sku&quot;</p>
+</div>
+<header>
+<h1>Gradienty</h1>
+<figure>
+<a href="index.html"><img src="grafika/logo1.png" alt="obraz"  height="200"/></a>
+</figure>
+</header>
+<div id="menu">
+<nav>
+<ul>
+<li><a href="*">Pozycjonowanie</a>
+<ul class="one">
+<li><a href="statyczne.html">Pozycjonowanie statyczne</a></li>
+<li><a href="względne.html">Pozycjonowanie względne</a></li>
+<li><a href="bezwzgledne.html">Pozycjonowanie bezwzględne</a></li>
+<li><a href="trwałe.html">Pozycjonowanie trwałe</a></li>
+<li><a href="kontekstowe.html">Pozycjonowanie kontekstowe</a></li>
+</ul>
+</li>
+<li><a href="*">Układy</a>
+<ul class="two">
+<li><a href="hybryda.html">Układ hybrydowy</a></li>
+<li><a href="plynne.html">Układ płynny</a></li>
+</ul>
+</li>
+<li><a href="*">HTML</a>
+<ul class="three">
+<li><a href="mapa_odsylaczy.html">Mapa odsyłaczy</a></li>
+<li><a href="galeria.html">Galeria zdjęć</a></li>
+<li><a href="opacity.html">Znikający opis zdjęcia</a></li>
+<li><a href="formularze.html">Formularze</a></li>
+<li><a href="formularze2.html">Formularze uzupełnienie</a></li>
+<li><a href="rozwijalne.html">Menu rozwijalne</a></li>
+<li><a href="sekcje_w_html.html">Nowe znaczniki</a></li>
+</ul>
+</li>
+
+<li><a href="*">CSS</a>
+<ul class="four">
+<li><a href="dziedziczenie.html">Dziedziczenie</a></li>
+<li><a href="gradienty.html">Gradienty</a></li>
+<li><a href="css.html">Nowe właściwości</a></li>
+</ul>
+</li>
+</ul>
+</nav>
+</div>
+<div id="tresc">
+<span id="pf">Gradienty pozwalają nam wyświetlić płynne przejścia kolorów bez potrzeby wrzucania grafiki na stronę. Dzięki nim możemy tworzyć ciekawe tła oraz obrazki. Dzięki gradientom nasza strona szybciej się wczyta.
+Na początek przedstawię przedrostki obowiązujące w poszczególnych przeglądarkach. Będą one wymagane, gdyż gradienty mogą nie być wyświetlane na stronie. Używamy je wpisując je przed właściowść dotyczącą gradientów, np -webkit-linear-gradient(...). Oto one:
+</span>
+<div id="ramka">
+
+<span class="s">-webkit</span> dla safari i chrome
+<br>
+<span class="s">-moz</span> dla mozilli firefox
+<br>
+<span class="s">-o</span> dla opery
+<br>
+<span class="s">-ms</span> dla internet explorera i microsoft edge
+
+</div>
+<h2>Gradienty liniowe</h2>
+Do tworzenia gradientów liniowych służy wartość <b>linear-gradient</b>. Podajemy w nim takie parametry jak miejsce rozpoczęcia gradientu oraz kolory jakie mają się w nim znaleźć. Nie mamy ograniczonej liczby kolorów do wykorzystania. Oto kilka przykładów, które będą przez mnie opisywane.
+
+<div id="g1">
+<div class="for">
+<b>linear-gradient(left,skyblue,green); </b>ustawiamy tutaj gradient zaczynający się od lewej i przechodzący z jednego koloru w drugi.
+</div>
+</div>
+<div id="g2" >
+<div class="for">
+<b>linear-gradient(45deg,blue,purple);</b> możemy określić też pod jakim kątem będzie padać gradient, wystarczy podać wartość kąta i zakończyć go przyrostkiem "deg".
+</div>
+</div>
+<div id="g3" >
+<div class="for">
+<b>linear-gradient(yellow, red 90%, green);</b>  możemy też ustalić w procentach lub w pikselach do jakiej szerokości dany kolor będzie występował, W tym przypadku kolor czerwony kończy się na 90% szerokości wydzielonego miejsca na gradient.
+</div>
+</div>
+<div id="g4">
+<div id="uni">
+<b>llinear-gradient(left,rgba(255,0,0,0),rgba(255,0,0,1)); </b> zostały tu użyte kolory rgba, które charakteryzuje kanał alfa mówiący o przezroczystości. Wartości tego kanału przyjmują wartości od 0 do 1. Jak widać na przykładzie gradient na początku jest przezroczysty przy kanale alfa 0.1 i przechodzi w brak przezroczystości przy kanale alfa równym 1.
+</div>
+</div>
+
+<h3>Gradienty powtarzające się</h3>
+
+
+<div id="g5">
+</div>
+<div id="cok">
+<b>repeating-linear-gradient(top, black 0px, black 10px, white 10px, white 20px); </b>możemy też tworzyć gradienty powtarzające się. Oto składnia powtarzającego się gradientu. Na początek podajemy miejsce skąd mają wychodzić kolory, następnie dla poszczególnych kolorów ustawiamy w pikselach lub procentach szerokość, na której mają się pojawić. Gdy taki gradient dojdzie do końca zapętla się i zapełnia cały obszar wydzielony dla gradientu powtarzającymi się sekwencjami kolorów.
+<h4>Gradienty promieniste</h4>
+Istnieją także gradienty promieniste. Domyślnie ich kształt to elipsa (wartość "ellipse") jednak jak zaraz pokażę można ustawić wartośc "circle", która odmieni postać gradientu. Wartości procentowe i podane w pikselach okrślają teraz odległość od środka danego koloru. Oto kilka przykładów.
+
+<div id="g6" >
+<div class="for">
+radial-gradient(blue 20%, gold 50%);
+</div>
+</div>
+<div id="g7" >
+<div class="for">
+radial-gradient(circle, red 0%, red 30%, white 30%, white 100%);
+</div>
+</div>
+</div>
+</div>
+<div id="kot">
+<a href="#poj"><img src="grafika/strzalka.png" alt ="obrazek"/></a>
+</div>
+<div id="dol">
+<a href="#fot"><img src="grafika/strzalka1.png" alt ="obrazek1"/></a>
+</div>
+<footer id="fot">
+Wykonał Rafał Kurek z klasy 2id
+</footer>
+</div>
+</body>
+</html>

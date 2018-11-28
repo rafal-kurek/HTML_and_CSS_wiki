@@ -1,0 +1,335 @@
+﻿<!DOCTYPE HTML>
+<html>
+<head>
+<title>Projekt na tssi</title>
+<meta charset="UTF-8"/>
+<meta name="author" content="Kurek Rafal"/>
+<meta name="description" content="opis strony"/>
+<meta name="keywords" content="slowa, klucze"/>
+<style>
+#poj
+{
+height:6970px;
+border-radius:25px;
+width:960px;
+margin:0 auto;
+background-color:rgb(137,143,155);
+}
+header
+{
+width:960px;
+height:325px;
+position:relative;
+
+}
+h1
+{
+color:rgb(191,199,220);
+width:580px;
+
+background-color:rgb(6,49,141);
+position:absolute;
+right:60px;
+top:25px;
+font-size:80px;
+font-variant:small-caps;
+font-style:italic;
+letter-spacing:3px;
+text-align:center;
+text-shadow:5px 6px black;
+border-radius:25px;
+}
+header figure
+{
+position:absolute;
+left:50px;
+top:50px;
+box-shadow:8px 8px 5px black;
+background-color:rgb(124,124,124);
+
+}
+#nag
+{
+font-weight:bold;
+position:relative;
+background-color:rgb(254, 80, 7);
+height:35px;
+font-size:25px;
+border-radius:10px;
+width:940px;
+margin:0 auto;
+text-align:center;
+top:18px;
+}
+body
+{
+
+background-image: url(grafika/tlo.jpg);
+}
+#menu
+{
+
+background-color:rgb(254, 80, 7);
+width:940px;
+border-radius:10px;
+height:50px;
+margin: 0 auto;
+}
+footer
+{
+position:relative;
+bottom:-95px;
+text-align:center;
+clear:both;
+background-color:rgb(254, 80, 7);
+width:940px;
+border-radius:10px;
+height:35px;
+margin: 0 auto;
+font-weight:bold;
+font-size:25px;
+}
+#tresc
+{
+z-index:1;
+position:relative;
+top:30px;
+width:920px;
+background-color:rgb(124,124,124);
+border-radius:10px;
+margin: 0 auto;
+text-align:center;
+height:6400px;
+border:solid black 2px;
+box-shadow:8px 8px 5px black;
+font-family:Verdana;
+font-size:20px;
+}
+
+#kot
+{
+position:fixed;
+top:600px;
+left:5%;
+border:solid black 1px;
+width:68px;
+background-color:rgb(6,49,141);
+box-shadow:8px 8px 5px black;
+border-radius:25px;
+}
+
+
+nav ul
+{
+position:relative;
+top:8px;
+left:62px;
+list-style-type:none;
+margin:0;
+padding:0;
+}
+nav ul ul 
+{
+z-index:2;
+display:none;
+position:absolute;
+top:100%;
+}
+nav ul ul a
+{
+font-size:20px;
+display:block;
+}
+nav ul ul a:hover
+{
+font-weight:bold;
+}
+nav ul li:hover > ul
+{
+
+display:block;
+}
+nav li
+{
+display:inline;
+}
+nav a
+{
+color:white;
+font-size:28px;
+text-align:center;
+display:inline-block;
+width:200px;
+border:black solid 1px;
+border-radius:25px;
+background-color:rgb(6,49,141);
+text-decoration:none;
+}
+.one
+{
+left:0;
+}
+.two
+{
+
+left:208px;
+}
+.three
+{
+left:415px;
+}
+.four
+{
+left:622px;
+}
+.jed
+{
+padding-top:60px;
+}
+#tresc figcaption
+{
+background-color:rgb(6,49,141);
+border-radius:25px;
+box-shadow:8px 8px 5px black;
+color:white;
+width:750px;
+padding-left:60px;
+position:relative;
+top:10px;
+}
+#dol
+{
+position:fixed;
+top:600px;
+right:5%;
+border:solid black 1px;
+width:68px;
+background-color:rgb(6,49,141);
+box-shadow:8px 8px 5px black;
+border-radius:25px;
+}
+#dol img
+{
+padding-top:8px;
+
+}
+</style>
+</head>
+<body>
+<div id="poj">
+<div id="nag">
+<p>Zesp&#243;&#322; Szk&#243;&#322; &#321;&#261;czno&#347;ci w Krakowie im. &quot;Obro&#324;c&#243;w Poczty Polskiej w Gda&#324;sku&quot;</p>
+</div>
+<header>
+<h1>Menu rozwijalne</h1>
+<figure>
+<a href="index.html"><img src="grafika/logo1.png" alt="obraz"  height="200"/></a>
+</figure>
+</header>
+<div id="menu">
+<nav>
+<ul>
+<li><a href="*">Pozycjonowanie</a>
+<ul class="one">
+<li><a href="statyczne.html">Pozycjonowanie statyczne</a></li>
+<li><a href="względne.html">Pozycjonowanie względne</a></li>
+<li><a href="bezwzgledne.html">Pozycjonowanie bezwzględne</a></li>
+<li><a href="trwałe.html">Pozycjonowanie trwałe</a></li>
+<li><a href="kontekstowe.html">Pozycjonowanie kontekstowe</a></li>
+</ul>
+</li>
+<li><a href="*">Układy</a>
+<ul class="two">
+<li><a href="hybryda.html">Układ hybrydowy</a></li>
+<li><a href="plynne.html">Układ płynny</a></li>
+</ul>
+</li>
+<li><a href="*">HTML</a>
+<ul class="three">
+<li><a href="mapa_odsylaczy.html">Mapa odsyłaczy</a></li>
+<li><a href="galeria.html">Galeria zdjęć</a></li>
+<li><a href="opacity.html">Znikający opis zdjęcia</a></li>
+<li><a href="formularze.html">Formularze</a></li>
+<li><a href="formularze2.html">Formularze uzupełnienie</a></li>
+<li><a href="rozwijalne.html">Menu rozwijalne</a></li>
+<li><a href="sekcje_w_html.html">Nowe znaczniki</a></li>
+</ul>
+</li>
+
+<li><a href="*">CSS</a>
+<ul class="four">
+<li><a href="dziedziczenie.html">Dziedziczenie</a></li>
+<li><a href="gradienty.html">Gradienty</a></li>
+<li><a href="css.html">Nowe właściwości</a></li>
+</ul>
+</li>
+</ul>
+</nav>
+</div>
+<div id="tresc">
+Przedstawię tutaj metodę wykonania menu rozwijalnego. Przykład takiej formy nawigacji można zauważyć na tej stronie. Teraz w kolejnych krokach spróbuję pokazać sposób wykonania takiego menu:
+<ol>
+<li>Tworzymy zagnieżdżoną listę odsyłaczy.</li>
+<li>Usuwamy marginesy, dopełnienia i punktory.</li>
+<li>Wyświetlamy elementy listy w jednym wierszu.</li>
+<li>Wyświetlamy odnośniki jako bloki.</li>
+<li>Ograniczamy szerokość przycisków.</li>
+<li>Stylizujemy odnośniki według własnego uznania.</li>
+<li>Listę zagnieżdżoną ustawiamy pod listą nadrzędną.</li>
+<li>Ustawiamy listę zagnieżdżoną w pionie.</li>
+<li>Chowamy menu rozwijalne pod menu główne.</li>
+<li>Wyświetlamy listę zagnieżdżoną jeśli mysz znajduje się pod odpowiednim elementem listy nadrzędnej.</li>
+<li>W przypadku paru list zagnieżdżonych należy odpowiednio wypozycjonować listy podrzędne, tak aby wyświetlały się pod odpowiednią listą nadrzędną.</li>
+</ol>
+<figure>
+<img src="grafika/kod.jpg" alt="obraz1" width="700" height="500"/>
+<figcaption>1.Zagnieżdżona lista odsyłaczy.</figcaption>
+</figure>
+<figure class="jed">
+<img src="grafika/kod2.jpg" alt="obraz2" width="700" height="500"/>
+<figcaption>2.W taki sposób usuwamy dopełnienia, marginesy i punktory.</figcaption>
+</figure>
+<figure class="jed">
+<img src="grafika/kod3.jpg" alt="obraz3" width="700" height="500"/>
+<figcaption>3.W taki sposób wyświetlamy elementy listy w poziomie.</figcaption>
+</figure>
+<figure class="jed">
+<img src="grafika/kod4.jpg" alt="obraz4" width="700" height="500"/>
+<figcaption>4.Na tym zdjęciu można zobaczyć jak wyświetlamy odnośniki jako bloki (display:inline-block) oraz jak ustalamy szerokość przycisków (width:200px).</figcaption>
+</figure>
+<figure class="jed">
+<img src="grafika/kod5.jpg" alt="obraz5" width="700" height="500"/>
+<figcaption>5.Pomijając pokazanie stylizowania odnośników, gdyż jest to kwestia gustu, pokażę jak ustawić listę zagnieżdżoną pod listą nadrzędną.</figcaption>
+</figure>
+<figure class="jed">
+<img src="grafika/kod6.jpg" alt="obraz6" width="700" height="500"/>
+<figcaption>6.Teraz ustawmy listę zagnieżdżoną w pionie.</figcaption>
+</figure>
+<figure class="jed">
+<img src="grafika/kod7.jpg" alt="obraz7" width="700" height="500"/>
+<figcaption>7.Chowamy listę zagnieżdżoną pod menu.</figcaption>
+</figure>
+<figure class="jed">
+<img src="grafika/kod8.jpg" alt="obraz8" width="700" height="500"/>
+<figcaption>8.I w taki sposób lista zagnieżdżona wyświetli się nam po najechaniu na nią myszką.</figcaption>
+</figure>
+<figure class="jed">
+<img src="grafika/kod9.jpg" alt="obraz9" width="700" height="800"/>
+<figcaption>9.Aby wypozycjonować listę podrzędną, aby wyświetlała się pod nadrzędną używamy pozycjonowania kontekstowego. Na &lt;ul&gt; list podrzędnych ustawiamy różne klasy, a następnie przy pomocy CSS formatujemy tą klasę odsuwając ją odpowiednio od lewej storny.</figcaption>
+</figure>
+
+
+
+</div>
+<div id="kot">
+<a href="#poj"><img src="grafika/strzalka.png" alt ="obrazek"/></a>
+</div>
+<div id="dol">
+<a href="#fot"><img src="grafika/strzalka1.png" alt ="obrazek1"/></a>
+</div>
+<footer id="fot">
+Wykonał Rafał Kurek z klasy 2id
+</footer>
+</div>
+</body>
+</html>
